@@ -35,7 +35,7 @@ section:nth-child(5) .text {
     background-size: cover;
 }
 section:nth-child(6) .text {
-    background-image:url(../image/pannel5.png);
+    background-image:url(../image/pannel6.png);
     background-size: cover;
 }
 
@@ -168,7 +168,7 @@ nav li {
 }
 
 nav span:after {
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(84, 107, 172, 0.15);
   position: absolute;
   content: "";
   display: block;
