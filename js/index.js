@@ -2,7 +2,7 @@ const anchors = document.querySelector(".anchors");
 
 const pageable = new Pageable("main", {
 	interval: 400,
-	delay: 300,
+	delay: 200,
 	// orientation: "horizontal",
 	// easing: easings.easeOutBounce,
 	onInit: init,
