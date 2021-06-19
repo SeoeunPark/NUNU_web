@@ -32,15 +32,10 @@ function init(pages) {
 	pages.forEach((page, i) => {
 		const id = page.id;
 		const text = `${id.charAt(0).toUpperCase()}${id.substr(1)}`;
-		
-		// generate top menu
 		const li = document.createElement("li");
 		const a = document.createElement("a");
-		
 		a.href = `#${page.id}`;
-		
 		a.textContent = text.replace("-", " ");
-		
 		if ( i === 0 ) {
 			a.classList.add("active");
 		}
