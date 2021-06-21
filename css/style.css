@@ -109,13 +109,13 @@ section:nth-child(6) .text {
 }
 .anchors {
   position: fixed;
-  top: 30px;
-  right: 50px;
+  top: 40px;
+  right: 60px;
   z-index: 100;
 }
 .anchors ul {
   font-family: "Roboto";
-  font-size: large;
+  font-size:larger;
   margin: 0;
   padding: 0;
 }
@@ -163,7 +163,7 @@ nav {
   position: fixed;
   top: 0;
   z-index: 100;
-  right: 20px;
+  right: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
