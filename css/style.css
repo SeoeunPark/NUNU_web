@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body {
   margin: 0;
-  font-family: "Montserrat";
+  font-family: "Roboto";
   overflow: hidden;
   background-color: #ffffff;
 }
@@ -17,26 +17,38 @@ section {
 section:nth-child(1) .text {
   background-image:url(../image/pannel1.png);
   background-size: cover;
+  width: 100%;
+  height: 100%;
 }
 section:nth-child(2) .text {
     background-image:url(../image/pannel2.png);
     background-size: cover;
+    width: 100%;
+  height: 100%;
 }
 section:nth-child(3) .text {
     background-image:url(../image/pannel3.png);
     background-size: cover;
+    width: 100%;
+  height: 100%;
 }
 section:nth-child(4) .text {
     background-image:url(../image/pannel4.png);
     background-size: cover;
+    width: 100%;
+  height: 100%;
 }
 section:nth-child(5) .text {
     background-image:url(../image/pannel5.png);
     background-size: cover;
+    width: 100%;
+  height: 100%;
 }
 section:nth-child(6) .text {
     background-image:url(../image/pannel6.png);
     background-size: cover;
+    width: 100%;
+  height: 100%;
 }
 
 .scroller {
@@ -97,11 +109,13 @@ section:nth-child(6) .text {
 }
 .anchors {
   position: fixed;
-  top: 25px;
+  top: 30px;
   right: 50px;
   z-index: 100;
 }
 .anchors ul {
+  font-family: "Roboto";
+  font-size: large;
   margin: 0;
   padding: 0;
 }
@@ -172,10 +186,10 @@ nav span:after {
   position: absolute;
   content: "";
   display: block;
-  top: 4px;
-  left: 4px;
-  right: 4px;
-  bottom: 4px;
+  top: 13px;
+  left: 13px;
+  right: 13px;
+  bottom: 13px;
   border-radius: 100%;
   transition: 0.3s;
 }
@@ -200,7 +214,7 @@ nav ul {
 nav ul li {
   display: block;
   width: 14px;
-  height: 13px;
+  height: 14px;
   margin: 7px;
   position: relative;
 }
